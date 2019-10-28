@@ -11,9 +11,11 @@ public class NavigationTests {
 
 
         //WebDriver driver = BrowserFactory.getDriver("safari");
-        WebDriver driver = BrowserFactory.getDriver("chrome");
+        //WebDriver driver = BrowserFactory.getDriver("chrome");
         //WebDriver driver = BrowserFactory.getDriver("firefox");
-        //WebDriver driver = BrowserFactory.getDriver("edge"); // Exception in thread "main" java.lang.NullPointerException
+
+        WebDriver driver = BrowserFactory.getDriver("edge"); //on windows it will run edge browser but on mac will run safari.
+        //but in different operating system will return nullpointerexception.
 
 
         driver.get("http://google.com");
