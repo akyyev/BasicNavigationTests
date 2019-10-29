@@ -24,7 +24,7 @@ public class TitleVerification3 {
             BrowserFactory.wait(2);
             String nameTitle = driver.getTitle();
             String title = driver.getTitle().replace(" ", "");
-            System.out.println("Title: "+nameTitle+ "\nUrl: "+ each + "\nIs url contained in title?: "+each.toLowerCase().contains(title.toLowerCase()));
+            System.out.println("Title: "+nameTitle+ "\nUrl: "+ each + "\nIs title contained in url?: "+each.toLowerCase().contains(title.toLowerCase()));
             System.out.println("--------------------------------");
 
             driver.close();
