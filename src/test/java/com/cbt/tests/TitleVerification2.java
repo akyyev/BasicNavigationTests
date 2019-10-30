@@ -1,11 +1,10 @@
 package com.cbt.tests;
 
 import com.cbt.utilities.BrowserFactory;
-import com.cbt.utilities.StringUtility;
 import org.openqa.selenium.WebDriver;
-
 import java.util.Arrays;
 import java.util.List;
+
 
 public class TitleVerification2 {
 
